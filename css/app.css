@@ -1,1 +1,36 @@
+.header {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
 
+.footer {
+  font-family: "Roboto", sans-serif;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  float: right;
+}
+
+.footer ul {
+  font-family: "Roboto", sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.footer li {
+  float: right;
+}
+
+.footer li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.footer li a:hover {
+  text-decoration: underline;
+}
