@@ -47,3 +47,19 @@
   transform: translate3d(0, 0, 0);
   opacity: 1;
 }
+
+
+//about page stuff
+.about-content,  .cv-content{
+  font-family: 'PT Serif', serif;
+}
+
+.about-content {
+  width: 50%;
+  float: left;
+}
+
+.cv-content {
+  width: 50%;
+  float: right;
+}
