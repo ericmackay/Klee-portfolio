@@ -9,6 +9,7 @@
   <link rel='icon' href='favicon.ico'>
   <link href='https://fonts.googleapis.com/css?family=PT+Serif|Roboto' rel='stylesheet'>
   <link href='css/app.css' rel='stylesheet'>
+  <script src="js/app.js"></script>
 </head>
 
 <body>
@@ -18,23 +19,23 @@
     </div>
   </div>
 
-  <div class='container-content'>
+  <div id='page-slide' class='container-content'>
 
   </div>
 
   <div class='footer'>
     <ul>
       <li>
-        <a href='about.html'>ABOUT</a>
+        <a onClick="loadPage('/about.html')">ABOUT</a>
       </li>
       <li>
-        <a href='photography.html'>PHOTOGRAPHY</a>
+        <a onClick="loadPage('/about.html')">PHOTOGRAPHY</a>
       </li>
       <li>
-        <a href='mixed'>MIXED MEDIA</a>
+        <a onClick="loadPage('/mixed.html')">MIXED MEDIA</a>
       </li>
       <li>
-        <a href='video'>VIDEO</a>
+        <a onClick="loadPage('/video.html')">VIDEO</a>
       </li>
     </ul>
 
