@@ -1,12 +1,10 @@
 var loadPage = function(url) {
   var slider = document.getElementById("page-slide");
-
-  slider.classList.add("shown");
-  slider.classList.remove("shown");
-
   var oReq = new XMLHttpRequest();
-  oReq.addEventListener("load", url);
+  oReq.addEventListener("load", function() {
+    var html = this.responseText;
+    slider.innerHTML = html;
+  });
   oReq.open("GET", url);
   oReq.send();
-  slider.innerHTML = oReq.response;
 };

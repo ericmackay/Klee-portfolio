@@ -1,12 +1,22 @@
+.body {
+  margin: 0;
+}
 .header {
+  margin: 0;
   font-family: "Roboto", sans-serif;
-  text-align: center;
+  font-size: 2vh;
+  width: 100vw;
   border-bottom: 1px solid black;
+  max-height: 10vh;
 }
 
+.container-content {
+  height: 80vh;
+}
 .footer {
   border-top: 1px solid black;
   font-family: "Roboto", sans-serif;
+  font-size: 1.75vh;
   position: fixed;
   width: 100vw;
   max-height: 10vh;
