@@ -1,4 +1,4 @@
-.body {
+.app {
   margin: 0;
 }
 .header {
@@ -8,6 +8,11 @@
   width: 100vw;
   border-bottom: 1px solid black;
   max-height: 10vh;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
 }
 
 .container-content {
@@ -58,10 +63,10 @@
   opacity: 1;
 }
 
-
 //about page stuff
-.about-content,  .cv-content{
-  font-family: 'PT Serif', serif;
+.about-content,
+.cv-content {
+  font-family: "PT Serif", serif;
 }
 
 .about-content {
