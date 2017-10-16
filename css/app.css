@@ -15,6 +15,11 @@
   color: black;
 }
 
+.header a:hover {
+  text-decoration: none;
+  color: black;
+}
+
 .container-content {
   height: 80vh;
 }
@@ -77,4 +82,8 @@
 .cv-content {
   width: 50%;
   float: right;
+}
+
+#carouselExampleControls {
+  height: 300px;
 }
