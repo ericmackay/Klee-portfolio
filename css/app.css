@@ -1,9 +1,10 @@
 .app {
   margin: 0;
 }
+
 .header {
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 2vh;
   width: 100vw;
   border-bottom: 1px solid black;
@@ -23,9 +24,10 @@
 .container-content {
   height: 80vh;
 }
+
 .footer {
   border-top: 1px solid black;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.75vh;
   position: fixed;
   width: 100vw;
@@ -71,7 +73,7 @@
 //about page stuff
 .about-content,
 .cv-content {
-  font-family: "PT Serif", serif;
+  font-family: 'PT Serif', serif;
 }
 
 .about-content {
@@ -86,4 +88,50 @@
 
 #carouselExampleControls {
   height: 300px;
+}
+
+.menu-wrapper {
+  float: right;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.menu {
+  opacity: 0;
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';
+  filter: alpha(opacity=0);
+  visibility: hidden;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  padding: 2px 0 6px 0;
+}
+
+.menu a {
+  font-family: 'Roboto', sans-serif;
+  font-size-adjust: 0.508;
+  font-weight: 200;
+  font-style: normal;
+  line-height: 18px;
+  text-decoration: none;
+  color: #000;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+._show-menu:hover .menu,
+._show-menu.activate .menu {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+  visibility: visible;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
